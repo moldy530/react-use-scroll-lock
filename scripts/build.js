@@ -39,7 +39,7 @@ const bundles = [{
         ]
     },
     outputConfig: {
-        ...commonOutputConfig('lib/cjs/use-konami.production.min.js'),
+        ...commonOutputConfig('lib/cjs/react-use-scroll-lock.production.min.js'),
     },
 },{
     // dev
@@ -47,7 +47,7 @@ const bundles = [{
         ...commonConfig,
     },
     outputConfig: {
-        ...commonOutputConfig('lib/cjs/use-konami.development.js')
+        ...commonOutputConfig('lib/cjs/react-use-scroll-lock.development.js')
     },
 }];
 
