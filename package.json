@@ -1,0 +1,75 @@
+{
+  "name": "react-use-scroll-lock",
+  "version": "0.0.0-development",
+  "description": "react hook to conditionally lock body scroll",
+  "author": "moldy",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/declaration/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "lib/**",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "npm run lint:ts",
+    "lint:ts": "tslint -p tsconfig.json",
+    "build": "node scripts/build.js",
+    "clean": "rimraf lib",
+    "test": "jest --config jest/unit.json"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/plugin-transform-spread": "^7.2.2",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.13",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.7.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.10.0",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "rollup-plugin-uglify": "^6.0.2",
+    "tslint": "^5.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.4.3"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --color"
+    ],
+    "*.ts": [
+      "tslint"
+    ],
+    ".travis.yml": "travis-lint"
+  },
+  "keywords": [
+    "konami",
+    "hooks",
+    "konami",
+    "code",
+    "use-konami",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moldy530/react-use-scroll-lock.git"
+  }
+}

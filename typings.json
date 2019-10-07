@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "window": "file:src/window.d.ts"
+  }
+}
