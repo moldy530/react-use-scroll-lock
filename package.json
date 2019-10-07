@@ -63,11 +63,11 @@
     ".travis.yml": "travis-lint"
   },
   "keywords": [
-    "konami",
+    "body-lock",
     "hooks",
-    "konami",
-    "code",
-    "use-konami",
+    "lock",
+    "scroll",
+    "use-scroll-lock",
     "react"
   ],
   "repository": {
