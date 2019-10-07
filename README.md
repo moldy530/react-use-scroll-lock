@@ -1,4 +1,4 @@
-# react-use-konami [![Build Status](https://travis-ci.org/moldy530/react-use-scroll-lock.svg?branch=master)](https://travis-ci.org/moldy530/react-use-scroll-lock)
+# react-use-scroll-lock [![Build Status](https://travis-ci.org/moldy530/react-use-scroll-lock.svg?branch=master)](https://travis-ci.org/moldy530/react-use-scroll-lock)
 React custom hook to conditionally enable body scroll lock.
 
 ### Installation
