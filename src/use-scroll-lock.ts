@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 declare global {
     // tslint:disable-next-line: interface-name
     interface Window {
-        __useScrollLockStyle: string;
-        __useScrollLockInstances: Set<{}>;
+        __useScrollLockStyle?: string;
+        __useScrollLockInstances?: Set<{}>;
     }
 }
 
